@@ -15,7 +15,7 @@ I had some difficulties checking that the model could actually write to the fold
 
 I would prefer to have the models send their results to a file storage server (in the cloud that would be S3) or a database. This could be achieved by adding a side-car container that forwards everything that is written to the file system.
 
-The image was pushed to Dockerhub rdettai/owkin-model-1:rev1
+The image can be pushed to Dockerhub, for instance as rdettai/owkin-model-1:rev1
 
 ## Step 3: the GET /v1/models score api
 
